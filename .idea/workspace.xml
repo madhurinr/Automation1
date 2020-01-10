@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cf11847-8100-436d-960d-0c35172e252e" name="Default Changelist" comment="" />
+    <list default="true" id="6cf11847-8100-436d-960d-0c35172e252e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc01.robot" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/tc01.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc2.robot" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/tc2.robot" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +31,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\madhuri\robotproject\testcase" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -66,9 +75,9 @@
       <screen x="0" y="0" width="1440" height="774" />
     </state>
     <state x="225" y="20" key="SettingsEditor/0.0.1440.774@0.0.1440.774" timestamp="1578336854869" />
-    <state x="428" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1578336874521">
+    <state x="428" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1578685128885">
       <screen x="0" y="0" width="1440" height="774" />
     </state>
-    <state x="428" y="215" key="com.intellij.ide.util.TipDialog/0.0.1440.774@0.0.1440.774" timestamp="1578336874521" />
+    <state x="428" y="215" key="com.intellij.ide.util.TipDialog/0.0.1440.774@0.0.1440.774" timestamp="1578685128885" />
   </component>
 </project>
