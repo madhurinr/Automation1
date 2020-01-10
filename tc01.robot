@@ -9,4 +9,4 @@ Test title
 *** Keywords ***
 open google
     open browser  https://www.google.com/   chrome
-    close all browsers
+    close browser
