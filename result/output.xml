@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200111 01:09:45.170" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200111 23:13:30.858" rpa="false">
 <suite id="s1" name="Testcase" source="C:\madhuri\robotproject\testcase">
 <suite id="s1-s1" name="Tc01" source="C:\madhuri\robotproject\testcase\tc01.robot">
 <test id="s1-s1-t1" name="Test title">
@@ -10,19 +10,19 @@
 <arg>https://www.google.com/</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200111 01:09:46.041" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
-<status status="PASS" starttime="20200111 01:09:46.040" endtime="20200111 01:09:53.182"></status>
+<msg timestamp="20200111 23:13:31.562" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20200111 23:13:31.562" endtime="20200111 23:13:35.772"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200111 01:09:53.183" endtime="20200111 01:09:55.373"></status>
+<status status="PASS" starttime="20200111 23:13:35.773" endtime="20200111 23:13:37.949"></status>
 </kw>
-<status status="PASS" starttime="20200111 01:09:46.039" endtime="20200111 01:09:55.374"></status>
+<status status="PASS" starttime="20200111 23:13:31.562" endtime="20200111 23:13:37.950"></status>
 </kw>
-<status status="PASS" starttime="20200111 01:09:46.037" endtime="20200111 01:09:55.375" critical="yes"></status>
+<status status="PASS" starttime="20200111 23:13:31.562" endtime="20200111 23:13:37.951" critical="yes"></status>
 </test>
 <doc>Suite description</doc>
-<status status="PASS" starttime="20200111 01:09:45.276" endtime="20200111 01:09:55.379"></status>
+<status status="PASS" starttime="20200111 23:13:30.968" endtime="20200111 23:13:37.955"></status>
 </suite>
 <suite id="s1-s2" name="Tc2" source="C:\madhuri\robotproject\testcase\tc2.robot">
 <test id="s1-s2-t1" name="Test title">
@@ -32,33 +32,31 @@
 <arg>https://github.com/</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200111 01:09:55.399" level="INFO">Opening browser 'chrome' to base url 'https://github.com/'.</msg>
-<status status="PASS" starttime="20200111 01:09:55.398" endtime="20200111 01:10:11.038"></status>
+<msg timestamp="20200111 23:13:37.980" level="INFO">Opening browser 'chrome' to base url 'https://github.com/'.</msg>
+<status status="PASS" starttime="20200111 23:13:37.979" endtime="20200111 23:13:43.732"></status>
 </kw>
-<kw name="close all brwoesers">
-<msg timestamp="20200111 01:10:11.060" level="FAIL">No keyword with name 'close all brwoesers' found. Did you mean:
-    SeleniumLibrary.Close All Browsers</msg>
-<status status="FAIL" starttime="20200111 01:10:11.059" endtime="20200111 01:10:11.060"></status>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200111 23:13:43.734" endtime="20200111 23:13:46.298"></status>
 </kw>
-<status status="FAIL" starttime="20200111 01:09:55.396" endtime="20200111 01:10:11.062" critical="yes">No keyword with name 'close all brwoesers' found. Did you mean:
-    SeleniumLibrary.Close All Browsers</status>
+<status status="PASS" starttime="20200111 23:13:37.977" endtime="20200111 23:13:46.298" critical="yes"></status>
 </test>
 <doc>Suite description</doc>
-<status status="FAIL" starttime="20200111 01:09:55.386" endtime="20200111 01:10:11.068"></status>
+<status status="PASS" starttime="20200111 23:13:37.963" endtime="20200111 23:13:46.298"></status>
 </suite>
-<status status="FAIL" starttime="20200111 01:09:45.175" endtime="20200111 01:10:11.078"></status>
+<status status="PASS" starttime="20200111 23:13:30.858" endtime="20200111 23:13:46.298"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="1">Critical Tests</stat>
-<stat pass="1" fail="1">All Tests</stat>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="1" id="s1" name="Testcase">Testcase</stat>
+<stat pass="2" fail="0" id="s1" name="Testcase">Testcase</stat>
 <stat pass="1" fail="0" id="s1-s1" name="Tc01">Testcase.Tc01</stat>
-<stat pass="0" fail="1" id="s1-s2" name="Tc2">Testcase.Tc2</stat>
+<stat pass="1" fail="0" id="s1-s2" name="Tc2">Testcase.Tc2</stat>
 </suite>
 </statistics>
 <errors>
